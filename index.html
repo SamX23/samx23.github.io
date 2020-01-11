@@ -14,24 +14,24 @@
   <link href="https://fonts.googleapis.com/css?family=Sniglet&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
-
   <style>
     body {
       font-family: "Sniglet", cursive, "pacifico", "Open Sans", sans-serif;
       font-size: calc(10px + 0.33vw);
-      padding: 5vh 10vw;
       color: #ffffff;
+      margin:1vh 12vw;
       text-align: justify;
-      background-color: rgb(0, 0, 0);
+      background-color:#2d3879;
+      
     }
 
     h1 {
       font-family: 'pacifico';
-      font-size: 3em;
+      font-size: 4em;
       font-weight: 100;
       margin-bottom: 0;
       text-align: center;
-
+      color: #ffffff;
     }
 
     p {
@@ -39,6 +39,19 @@
       font-weight: 300;
       line-height: 1;
     }
+    a {
+    color: #ff9800;
+    text-decoration: none;
+    }
+
+  a:hover {
+    text-shadow:
+      3px 3px 0 #ffffff,
+      -1px -1px 0 #ffffff,
+      1px -1px 0 #ffffff,
+      -1px 1px 0 #ffffff,
+      1px 1px 0 #ffffff;
+  }
 
     .middle-container {
       z-index: -1;
@@ -60,20 +73,36 @@
 <body>
   <div class="middle-container" id="particles-js"></div>
 
-  <h1>Bismillah</h1>
+  <h1> Bismillah </h1>
   <hr>
-  <p>Hallo, saya Sami Kalamallah tapi di KTP di tulisnya Sami Kalammallah karena kesalahan dari akte yang tidak diubah
-    dann pokoknya ribet deh jadi semuanya ngikut ke akte yang salah ejaan gitu wkwk</p>
-
+  <p>Halo, saya Sami Kalamallah di KTP di tulisnya Sami Kalammallah karena kesalahan akte, ribet deh pokonya wkwk</p>
+  <p>Saya lulusan S1 Pendidikan Bahasa Inggris yang saat ini sedang belajar ngoding dan sudah bekerja di perusahaan terbaik saat ini yaitu 
+    <a style="color: rgb(0, 0, 0);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
+  </p>
+  <hr>
+  
   <ul>
-    <li>Saya bisa Ngoding</li>
+    <li>Saya bisa ngoding</li>
     <li>Saya bisa Digital Marketing + SEO</li>
+    <li>Saya suka dunia IT dan IoT</li>
     <li>Saya suka balap mobil(Belum punya mobil #pakeyangadaaja)</li>
     <li>dan saya hobi mempelajari hal yang baru :)</li>
   </ul>
+  <p style="text-align: center;">
+    <span style="background-color: rgba(255, 255, 255, 0.315);">
+    <a style="color: blue;" href="https://web.facebook.com/SamiKalamallah">Facebook</a> |
+    <a style="color: black;" href="https://github.com/SamX23/">Github</a> |
+    <a style="color: orange;" href="https://www.instagram.com/samikalamallah/">Instagram</a> |
+    <a style="color: red;" href=mailto:skalexsong@gmail.com>Gmail</a> |
+    <a style="color: green;" href="https://wa.me/+6289657511134">Whatapp</a>
+  </span>  
+  </p>
+  
 
-  <script src="particles.js"></script>
-  <script type="text/javascript">
+
+</body>
+<script src="particles.js"></script>
+<script type="text/javascript">
     particlesJS("particles-js", {
       particles: {
         number: {
@@ -84,7 +113,7 @@
           }
         },
         color: {
-          value: "#ffffff"
+          value: "#fbff00"
         },
         shape: {
           type: "circle",
@@ -184,7 +213,5 @@
       },
       retina_detect: true
     });
-  </script>
-</body>
-
+</script>
 </html>
