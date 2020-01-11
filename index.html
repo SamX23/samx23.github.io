@@ -1,20 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link href='favicon.ico' rel='icon' type='image/x-icon'/>
-    <link href='https://samx23.github.io/' rel='canonical'/>
-    <title>Coco'oan Sami Kalamallah</title>
+  <title>Coco'oan Sami Kalamallah</title>
+  <meta content='width=device-width, initial-scale=1' name='viewport' />
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <link href='favicon.ico' rel='icon' type='image/x-icon' />
+  <link href='https://samx23.github.io/' rel='canonical' />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140796150-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-140796150-2");
+  </script>
+
+  <style>
+    body {
+      font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: calc(10px + 0.33vw);
+      -webkit-font-smoothing: antialiased;
+      padding: 5vh 10vw;
+      color: #121314;
+    }
+
+    h1 {
+      font-size: 4em;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-size: 1.4em;
+      font-weight: 300;
+      line-height: 1.2;
+      max-width: 29em;
+    }
+
+    a {
+      text-decoration: none;
+      color: #121314;
+      position: relative;
+    }
+
+    a:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 60%;
+      left: -0.1em;
+      right: -0.1em;
+      bottom: 0;
+      transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+      background-color: rgba(89, 112, 181, 0.5);
+    }
+
+    a:hover:after {
+      top: 0%;
+    }
+
+    .wrapper-particle {
+      z-index: -1;
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 100vw;
+      height: 100vh;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+      /* background: #232741; */
+    }
+  </style>
 
 </head>
+
 <body>
-<h1>Assalamu'alaikum</h1>
+  <div class="wrapper-particle" id="particles-js"></div>
 
-<p>Hallo, saya Sami Kalamallah tapi di KTP di tulisnya Sami Kalammallah karena kesalahan dari akte yang tidak diubah dann pokoknya ribet deh jadi semuanya ngikut ke akte yang salah ejaan gitu wkwk</p>
-<p>Saya bisa Ngoding</p>
-<p>Saya bisa Digital Marketing + SEO</p>
-<p>Saya suka balap mobil</p>
-<p>dan saya hobi mempelajari hal yang baru :)</p>
+  <h1>Assalamu'alaikum</h1>
 
+  <p>Hallo, saya Sami Kalamallah tapi di KTP di tulisnya Sami Kalammallah karena kesalahan dari akte yang tidak diubah
+    dann pokoknya ribet deh jadi semuanya ngikut ke akte yang salah ejaan gitu wkwk</p>
+
+  <ul>
+    <li>Saya bisa Ngoding</li>
+    <li>Saya bisa Digital Marketing + SEO</li>
+    <li>Saya suka balap mobil(Belum punya mobil #pakeyangadaaja)</li>
+    <li>dan saya hobi mempelajari hal yang baru :)</li>
+  </ul>
+
+  <script src="particles.js></script>
 </body>
+
 </html>
