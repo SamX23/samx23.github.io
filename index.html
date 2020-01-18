@@ -76,6 +76,7 @@
       color: #ffffff;
     }
 
+    /*
     a {
       color: #ff9800;
       text-decoration: none;
@@ -89,6 +90,34 @@
         -1px 1px 0 #dbdbdb,
         1px 1px 0 #dbdbdb;
     }
+    */
+
+    :root { --mainColor: #818181; }
+    
+    a{
+       background:
+      linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent 5px
+     );
+    background-repeat: repeat-x;
+    background-size: 100%;
+    color: rgb(143, 141, 141);
+    padding-left: 10px;
+    text-decoration: none;
+  }
+
+  a:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     ); 
+  }
 
     .container {
       z-index: -1;
@@ -113,21 +142,24 @@
   <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="img2.jpg" style="width:100%">
+    <img src="img2.jpg" style="width:100%; border-radius:50%">
 
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+      <p></p>
       <i class="fa fa-home w3-xxlarge"></i>
-      <p>HOME</p>
+      <p>Home</p>
     </a>
 
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <p></p>
       <i class="fa fa-user w3-xxlarge"></i>
-      <p>ABOUT</p>
+      <p>Curcol</p>
     </a>
 
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+      <p></p>
       <i class="fa fa-envelope w3-xxlarge"></i>
-      <p>CONTACT</p>
+      <p>Get In Touch</p>
     </a>
   </nav>
 
@@ -149,30 +181,29 @@
     <header class="w3-container w3-padding-32 w3-center" id="home">
       <h1 class="w3-jumbo"> Bismillah </h1>
       <p class=" w3-xlarge">
-        <a href="#" style="color: rgb(25, 0, 255);">Tech Savvy</a> |
-        <a href="#" style="color: rgb(255, 0, 0);">Positive Vibes</a> |
+        <a href="#" style="color: rgb(25, 0, 255);">Tech Savvy</a> 
+        <a href="#" style="color: rgb(255, 0, 0);">Positive Vibes</a> 
         <a href="#" style="color: rgb(255, 251, 0);">All-Rounder</a></p>
 
       <hr style="width:200px fit-content" class="w3-opacity">
 
-      <img src="img1.jpg" alt="boy" class="w3-image" width="600" height="720">
+      <img src="img1.jpg" alt="boy" class="w3-image" style="max-width: 100%;height: auto;">
     </header>
 
     <!-- About Section -->
     <div style=" font-size: 1.5em;" class="w3-content w3-justify w3-text-white w3-padding-32" id="about">
-      <h2 class="w3-xxlarge w3-center">Hallo, saya Sami Kalamallah.</h2>
+      <h2 class="w3-xxlarge w3-center">Halo, saya Sami Kalamallah.</h2>
       <hr style="width:200px fit-content" class="w3-opacity">
       <p>Kalo di KTP tertulis Sami Kalammallah karena kesalahan akte, jadi ribet deh pokonya wkwk</p>
-      <p>Saya seorang Muslim, pemimpin keluarga, seorang sarjana pendidikan, seorang wirausaha di waktu luang dan sedang
-        bekerja secara REMOTE di perusahaan terbaik yaitu
-        <a style="color: rgb(231, 231, 231);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
+      <p>Saya seorang pembelajar, seorang wirausaha di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik yaitu
+        <a style="color: rgb(125, 97, 248);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
       </p>
       <p>Berikut beberapa klaim dan hobi saya saat ini: </p>
       <ul>
         <li>Saya bisa ngoding</li>
         <li>Saya bisa Digital Marketing + SEO</li>
         <li>Saya suka dunia IT dan IoT</li>
-        <li>Saya suka balap mobil(Belum punya mobil #pakeyangadaaja)</li>
+        <li>Saya suka balap mobil (Belum punya mobil #pakeyangadaaja)</li>
         <li>dan saya hobi mempelajari hal yang baru :)</li>
       </ul>
       <!-- End About Section -->
