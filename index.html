@@ -30,7 +30,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <meta name="HandheldFriendly" content="true">
 
   <link href='favicon.ico' rel='icon' type='image/x-icon' />
   <link href='https://samikalamallah.com/' rel='canonical' />
@@ -42,6 +43,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style>
+    html { font-size: 100%; }
+    img { max-width: 100%; }
+
+
+    @media (min-width: 640px) { body {font-size:1rem;} } 
+    @media (min-width:960px) { body {font-size:1.2rem;} } 
+    @media (min-width:1100px) { body {font-size:1.5rem;} }
+
     body {
       font-family: "Sniglet", cursive, "pacifico", "Open Sans", "Monstserrat";
     }
@@ -196,9 +205,9 @@
     </header>
 
     <!-- About Section -->
-    <div style=" font-size: 1.5em;" class="w3-content w3-justify" id="about">
+    <div class="w3-content w3-justify" id="about">
 
-      <h2 class="w3-xxlarge w3-center">Halo, saya Sami Kalamallah.</h2>
+      <h2 class="w3-xxlarge w3-center">Wilujeng Gan ! saya Sami Kalamallah.</h2>
       <hr style="width:200px fit-content" class="w3-opacity">
       <p>Kalo di KTP tertulis Sami Kalammallah karena kesalahan akte, jadi ribet deh pokonya wkwk</p>
       <p>Saya seorang pembelajar, seorang wirausaha di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik yaitu
@@ -206,17 +215,22 @@
       </p>
       <p>Berikut beberapa klaim dan hobi saya saat ini: </p>
       <ul>
-        <li>Saya bisa ngoding</li>
-        <li>Saya bisa Digital Marketing + SEO</li>
+        <li>Saya bisa ngoding (Currently 
+          <i style="color: tomato;" >Java</i> and 
+          <i style="color: lime;">Python</i>)</li>
+        <li>Saya bisa 
+          <i style="color: dodgerblue;">Digital Marketing</i> + SEO</li>
         <li>Saya suka dunia IT dan IoT</li>
-        <li>Saya suka balap mobil (Belum punya mobil #pakeyangadaaja)</li>
+        <li>Saya suka 
+          <i style="color: red;">Photography</i></li>
+        <li>Saya suka balap mobil (Belum punya mobil #hayubalap)</li>
         <li>dan saya hobi mempelajari hal yang baru :)</li>
       </ul>
       <!-- End About Section -->
     </div>
 
     <!-- Contact Section -->
-    <div style=" font-size: 1.5em;" class=" w3-padding-32 w3-content w3-text-white w3-center" id="contact">
+    <div class=" w3-padding-32 w3-content w3-text-white w3-center" id="contact">
       <h2 class="w3-text-light-grey">Lets Get In Touch</h2>
       <hr style="widows: 200px fit-content" class="w3-opacity">
 
@@ -249,7 +263,7 @@
           <a style="color: green;" href="https://wa.me/+6289657511134">Whatsapp</a>
         </span>
       </p>
-      <p class="w3-medium w3-center">Compiled on 2020 by Sami Kalamallah</p>
+      <p class="w3-medium w3-center">It is <a href="https://en.wikipedia.org/wiki/2020">2020</a> and here I am, Sami Kalamallah</p>
       <!-- End footer -->
     </footer>
     <!-- END PAGE CONTENT -->
