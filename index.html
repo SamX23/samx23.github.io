@@ -40,8 +40,8 @@
   <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <script src="https://kit.fontawesome.com/e7051368e2.js" crossorigin="anonymous"></script> 
   <style>
     html { font-size: 100%; }
     img { max-width: 100%; }
@@ -209,8 +209,8 @@
 
       <h2 class="w3-xxlarge w3-center">Wilujeng Gan ! saya Sami Kalamallah.</h2>
       <hr style="width:200px fit-content" class="w3-opacity">
-      <p>Kalo di KTP tertulis Sami Kalammallah karena kesalahan akte, jadi ribet deh pokonya wkwk</p>
-      <p>Saya seorang pembelajar, seorang wirausaha di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik yaitu
+      <p>KTP tertulis Sami Kalammallah karena kesalahan akte yang lama tak diurus, jadi ya lumayan ribet.</p>
+      <p><i>I am a highly motivated selftaught programmer</i>, seorang wirausaha di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik yaitu
         <a style="color: rgb(125, 97, 248);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
       </p>
       <p>Berikut beberapa klaim dan hobi saya saat ini: </p>
@@ -223,15 +223,50 @@
         <li>Saya suka dunia IT dan IoT</li>
         <li>Saya suka 
           <i style="color: red;">Photography</i></li>
-        <li>Saya suka balap mobil (Belum punya mobil #hayubalap)</li>
+        <li>I love sports ( Swimming, Running, Cycling and Speeding)</li>
         <li>dan saya hobi mempelajari hal yang baru :)</li>
       </ul>
       <!-- End About Section -->
     </div>
 
+    <!-- Mind Matters -->   
+    
+    <hr style="width:200px fit-content" class="w3-opacity w3-content">   
+    <p style="margin-bottom: 0px;" class="w3-center">
+      while youMindAboutThings:</p>
+    <p style="margin-top: 0px;" class="w3-center">
+      <button class="w3-button" onclick="myFunction()">
+      Check Me Out</button></p>
+    <div style="display:none;" class="w3-content w3-justify" id="divBut">
+      <p>
+        A lil bit of a story, I'm a muslim, married man who lives in a countryside at Cianjur, and 
+        having a wife, a daughter and a future. At this age of 25 (by April 2020) 
+        I've been through a lot of jobs, experience and failure. Thus, it is motivate me so much 
+        to learn things and reach for the better future.
+      </p>
+      <ul>
+        <i class="fas fa-seedling"> Born in Bandung @ 1995</i>
+          <br>
+        <i class="fa fa-graduation-cap"> Bachelor Degree of English Education</i>
+          <br>
+        <i class="fa fa-heartbeat"> +AB</i>
+          <br>
+        <i class="fas fa-dumbbell"> 165 cm x 58Kg</i>
+      </ul>
+      <p class="w3-center">
+        if enough:
+      <br>
+      <button class="w3-center w3-button " onclick="myFunction()">
+        break</button>
+      </p>
+      
+    </div>
+    
+    <hr style="width:200px fit-content" class="w3-opacity w3-content">
+
     <!-- Contact Section -->
     <div class=" w3-padding-32 w3-content w3-text-white w3-center" id="contact">
-      <h2 class="w3-text-light-grey">Lets Get In Touch</h2>
+      <h2 class="w3-text-light-grey">Let's socialize</h2>
       <hr style="widows: 200px fit-content" class="w3-opacity">
 
       <div class="w3-section">
@@ -247,19 +282,19 @@
     <footer class="w3-content w3-padding-64 w3-text-white w3-xlarge">
       <p class="w3-center">
         <span>
-          <i class="fa fa-facebook-official w3-hover-opacity-off"></i>
+          <i class="fab fa-facebook w3-hover-opacity-off"></i>
           <a style="color: blue;" href="https://web.facebook.com/SamiKalamallah">Facebook</a> |
 
-          <i class="fa fa-instagram w3-hover-opacity-off"></i>
+          <i class="fab fa-instagram w3-hover-opacity-off"></i>
           <a style="color: orange;" href="https://www.instagram.com/samikalamallah/">Instagram</a> |
 
-          <i class="fa fa-linkedin w3-hover-opacity-off"></i>
+          <i class="fab fa-linkedin w3-hover-opacity-off"></i>
           <a style="color: skyblue;" href="https://www.linkedin.com/in/samikalamallah/">LinkedIn</a> |
 
-          <i class="fa fa-github w3-hover-opacity-off"></i>
+          <i class="fab fa-github w3-hover-opacity-off"></i>
           <a style="color: red;" href="https://github.com/samx23">Github</a> |
 
-          <i class="fa fa-whatsapp w3-hover-green-off"></i>
+          <i class="fab fa-whatsapp w3-hover-green-off"></i>
           <a style="color: green;" href="https://wa.me/+6289657511134">Whatsapp</a>
         </span>
       </p>
@@ -270,7 +305,16 @@
   </div>
 
 </body>
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("divBut");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
 <script src="particles.js"></script>
 <script type="text/javascript">
   particlesJS("particles-js", {
