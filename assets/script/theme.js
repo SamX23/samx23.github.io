@@ -1,6 +1,6 @@
 const themeMap = {
   dark: "solar",
-  solar: "dark"
+  solar: "dark",
 };
 
 const theme =
