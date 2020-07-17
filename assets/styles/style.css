@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Sniglet&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
 :root {
   font-family: "Sniglet", cursive, "pacifico", "Open Sans", "Monstserrat";
   --mainColor: #818181;
