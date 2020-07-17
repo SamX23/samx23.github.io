@@ -1,5 +1,5 @@
 <!--
-  Created by Sami Kalamallah
+  Created by Sami Kalammallah
   Jan 2020
   Modified W3 CSS 4.0
 -->
@@ -20,7 +20,7 @@
       f.parentNode.insertBefore(j, f);
     })(window, document, "script", "dataLayer", "GTM-5N5G5X6");
   </script>
-  <title>Coco'oan Sami Kalamallah</title>
+  <title>Coco'oan Sami Kalammallah</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="assets\image\favicon.ico" type="image/x-icon" />
@@ -42,31 +42,28 @@
     </iframe
   ></noscript>
   <main>
-    <div class="container" id="particles-js"></div>
-    <header class="w3-padding w3-container w3-center" id="home">
+    <div class="js-container" id="particles-js"></div>
+    <header class="w3-padding w3-center" id="home">
       <h1 class="w3-jumbo">Bismillah</h1>
       <p class="w3-large">
         <a href="#" style="color: rgb(25, 0, 255);">Tech Savvy | </a>
         <a href="#" style="color: rgb(255, 0, 0);">Positive Vibes</a>
         <a href="#" style="color: rgb(255, 251, 0);"> | All-Rounder</a>
       </p>
-      <div class="w3-content">
+      <div class="content">
         <img
           src="assets\image\img1.jpg"
-          alt="HackerMan, Sami Kalamallah!"
+          alt="HackerMan, Sami Kalammallah!"
           class="w3-image"
           style="border-style: groove;"
         />
       </div>
     </header>
 
-    <div class="w3-padding w3-content w3-justify" id="about">
-      <h2 class="w3-xxlarge w3-center">Wilujeng Gan ! saya Sami Kalamallah.</h2>
-      <hr style="width: 200px fit-content;" class="w3-opacity" />
+    <div class="w3-padding content w3-justify" id="about">
+      <h2 class="w3-xxlarge w3-center">Wilujeng Gan ! saya Sami Kalammallah.</h2>
+      <hr />
       <pre>
-        KTP tertulis Sami Kalammallah karena kesalahan akte yang lama tak
-        diurus, jadi ya lumayan ribet.
-
         <i>I am a highly motivated selftaught programmer</i>, seorang wirausaha
         di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik
         yaitu <a style="color: rgb(125, 97, 248);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
@@ -82,7 +79,7 @@
       </pre>
     </div>
 
-    <div class="w3-padding w3-content w3-justify">
+    <div class="w3-padding content w3-justify">
       <p style="margin-bottom: 0px;" class="w3-center">
         while youMindAboutThings:
       </p>
@@ -91,8 +88,8 @@
           Check Me Out
         </button>
       </p>
-      <div style="display: none;" class="w3-content w3-justify" id="divBut">
-        <hr style="width: 200px fit-content;" class="w3-opacity w3-content" />
+      <div style="display: none;" class="content w3-justify" id="divBut">
+        <hr class="w3-opacity content" />
         <p>
           A lil bit of a story, I'm a muslim, married man who lives in a
           countryside at Cianjur, and having a wife, a daughter and a future. At
@@ -118,13 +115,13 @@
             break
           </button>
         </p>
-        <hr style="width: 200px fit-content;" class="w3-opacity w3-content" />
+        <hr class="w3-opacity content" />
       </div>
     </div>
 
-    <div class="w3-padding w3-content w3-text-white w3-center" id="contact">
+    <div class="w3-padding content w3-text-white w3-center" id="contact">
       <h2 class="w3-text-light-grey">Coding Performance</h2>
-      <hr style="widows: 200px fit-content;" class="w3-opacity" />
+      <hr />
 
       <a href="https://www.hackerrank.com/SamX23">Hacker Rank</a>
       <a href="https://github.com/samx23">Github</a>
@@ -134,9 +131,9 @@
       <a href="https://www.dicoding.com/users/409443">Dicoding</a>
     </div>
 
-    <div class="w3-padding w3-content w3-text-white w3-center">
+    <div class="w3-padding content w3-text-white w3-center">
       <h2 class="w3-text-light-grey">Let's socialize</h2>
-      <hr style="widows: 200px fit-content;" class="w3-opacity" />
+      <hr />
 
       <div class="w3-section">
         <p>
@@ -161,7 +158,7 @@
       </div>
     </div>
 
-    <footer class="w3-padding-32 w3-content w3-text-white w3-large">
+    <footer class="w3-padding-32 content w3-text-white w3-large">
       <p class="w3-center">
         <span>
           <i class="fab fa-facebook w3-hover-opacity-off"></i>
@@ -190,18 +187,20 @@
 
           <i class="fab fa-whatsapp w3-hover-green-off"></i>
           <a style="color: green;" href="https://wa.me/+6289657511134"
-            >Whatsapp</a
+            >WhatsApp</a
           >
         </span>
       </p>
       <p class="w3-medium w3-center">
         It is <a href="https://en.wikipedia.org/wiki/2020">2020</a> and here I
-        am, Sami Kalamallah
+        am, Sami Kalammallah
       </p>
     </footer>
   </main>
 </body>
-<script>
+
+<script src="assets\script\particles.js"></script>
+<script type="text/javascript">
   function myFunction() {
     var x = document.getElementById("divBut");
     if (x.style.display === "none") {
@@ -210,9 +209,7 @@
       x.style.display = "none";
     }
   }
-</script>
-<script src="assets\script\particles.js"></script>
-<script type="text/javascript">
+  // From particle JS Git (I forget the source)
   particlesJS("particles-js", {
     particles: {
       number: {
