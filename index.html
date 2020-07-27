@@ -1,8 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <!--
   Created by Sami Kalammallah
   Jan 2020
   Modified W3 CSS 4.0
 -->
+
+<!-- 
+  kacau version, belum ada waktu fix, mencoba remove template w3 and improve sama css sendiri, 
+  lebih banyak waktu ngerjain proyek lain
+ -->
 
 <head>
   <script>
@@ -25,181 +33,156 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" href="assets\image\favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="assets\styles\style.css" />
-  <script
-    src="https://kit.fontawesome.com/e7051368e2.js"
-    crossorigin="anonymous"
-  ></script>
+  <link rel="stylesheet" href="assets\styles\responsive.css">
 </head>
 
 <body>
-  <noscript
-    ><iframe
-      src="https://www.googletagmanager.com/ns.html?id=GTM-5N5G5X6"
-      height="0"
-      width="0"
-      style="display: none; visibility: hidden;"
-    >
-    </iframe
-  ></noscript>
-  <main>
-    <div class="js-container" id="particles-js"></div>
-    <header class="w3-padding w3-center" id="home">
-      <h1 class="w3-jumbo">Bismillah</h1>
-      <p class="w3-large">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5N5G5X6" height="0" width="0"
+      style="display: none; visibility: hidden;">
+    </iframe></noscript>
+  <div class="js-container" id="particles-js"></div>
+  <header>
+    <div class="header-main">
+      <h1>Bismillah</h1>
+      <p>
         <a href="#" style="color: rgb(25, 0, 255);">Tech Savvy | </a>
         <a href="#" style="color: rgb(255, 0, 0);">Positive Vibes</a>
         <a href="#" style="color: rgb(255, 251, 0);"> | All-Rounder</a>
       </p>
+      <img src="assets\image\img1.jpg" alt="HackerMan, Sami Kalammallah!" />
+    </div>
+    <nav class="header-menu"></nav>
+  </header>
+
+  <main>
+    <div class="top-wrapper">
+      <div class="profile">
+        <div class="content" id="about">
+          <h2>Wilujeng Gan ! saya Sami Kalammallah.</h2>
+          <hr />
+          <p>
+            <i>I am a highly motivated selftaught programmer</i>, seorang wirausaha
+            di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik
+            yaitu <a style="color: rgb(125, 97, 248);" href="https://kirim.email">Kirim.Email</a> sebagai Technical
+            Support.
+
+          </p>
+          <p>
+            Berikut beberapa klaim dan hobi saya saat ini:
+          </p>
+          <pre>
+            - Saya bisa ngoding (Currently learning <i style="color: tomato;">Java</i>, <i style="color: lime;">Python</i>, and React).
+            - Sedang mendalami Web Development, diawali dari Front End (React).
+            - Saya bisa <i style="color: dodgerblue;">Digital Marketing</i> + SEO.
+            - Saya suka hal yang Techy Techy.
+            - Saya suka <i style="color: red;">Photography</i>.
+            - I love sports (Swimming, Running, Cycling and Speeding)
+            - And I am eager to learn about Technology.
+          </pre>
+        </div>
+      </div>
+
+      <div class="profile-details">
+        <div class="content">
+          <p>
+            while youMindAboutThings:
+          </p>
+          <p>
+            <button onclick="myFunction()">
+              Check Me Out
+            </button>
+          </p>
+          <div style="display: none; text-align: justify;" class="content " id="divBut">
+            <hr class="content" />
+            <p>
+              A lil bit of a story, I'm a muslim, married man who lives in a
+              countryside at Cianjur, and having a wife, a daughter and a future. At
+              this age of 25. I've been through a lot of jobs,
+              experience and failure. Thus, it is motivate me so much to learn
+              things and reach for the better future.
+            </p>
+            <ul>
+              <i class="fas fa-seedling"> Born in Bandung @ 1995</i>
+              <br />
+              <i class="fa fa-graduation-cap">
+                Bachelor Degree of English Education</i>
+              <br />
+              <i class="fa fa-heartbeat"> +AB</i>
+              <br />
+              <i class="fas fa-dumbbell"> 165 cm x 58Kg</i>
+            </ul>
+            <p>if enough:</p>
+            <button onclick="myFunction()">
+              break
+            </button>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="middle-wrapper">
+      <div class="content" id="contact">
+        <h2>Coding Performance</h2>
+        <hr />
+        <a href="https://samx23.github.io/web-dasar-dicoding/">Portfolio</a>
+        <a href="https://www.hackerrank.com/SamX23">Hacker Rank</a>
+        <a href="https://github.com/samx23">Github</a>
+        <a href="https://stackoverflow.com/users/12217514/sami-kalammallah">Stack Over Flow</a>
+        <a href="https://www.dicoding.com/users/409443">Dicoding</a>
+      </div>
+    </div>
+
+    <div class="bottom-wrapper">
       <div class="content">
-        <img
-          src="assets\image\img1.jpg"
-          alt="HackerMan, Sami Kalammallah!"
-          class="w3-image"
-          style="border-style: groove;"
-        />
-      </div>
-    </header>
+        <h2>Let's socialize</h2>
+        <hr />
 
-    <div class="w3-padding content w3-justify" id="about">
-      <h2 class="w3-xxlarge w3-center">Wilujeng Gan ! saya Sami Kalammallah.</h2>
-      <hr />
-      <pre>
-        <i>I am a highly motivated selftaught programmer</i>, seorang wirausaha
-        di waktu luang dan saat ini bekerja secara REMOTE di perusahaan terbaik
-        yaitu <a style="color: rgb(125, 97, 248);" href="https://kirim.email">Kirim.Email</a> sebagai Technical Support.
-
-        Berikut beberapa klaim dan hobi saya saat ini:
-        - Saya bisa ngoding (Currently learning <i style="color: tomato;">Java</i>, <i style="color: lime;">Python</i>, and React).
-        - Sedang mendalami Web Development, diawali dari Front End (React).
-        - Saya bisa <i style="color: dodgerblue;">Digital Marketing</i> + SEO.
-        - Saya suka hal yang Techy Techy.
-        - Saya suka <i style="color: red;">Photography</i>.
-        - I love sports (Swimming, Running, Cycling and Speeding)
-        - And I am eager to learn about Technology.
-      </pre>
-    </div>
-
-    <div class="w3-padding content w3-justify">
-      <p style="margin-bottom: 0px;" class="w3-center">
-        while youMindAboutThings:
-      </p>
-      <p style="margin-top: 0px;" class="w3-center">
-        <button class="w3-button" onclick="myFunction()">
-          Check Me Out
-        </button>
-      </p>
-      <div style="display: none;" class="content w3-justify" id="divBut">
-        <hr class="w3-opacity content" />
-        <p>
-          A lil bit of a story, I'm a muslim, married man who lives in a
-          countryside at Cianjur, and having a wife, a daughter and a future. At
-          this age of 25 (by April 2020) I've been through a lot of jobs,
-          experience and failure. Thus, it is motivate me so much to learn
-          things and reach for the better future.
-        </p>
-        <ul>
-          <i class="fas fa-seedling"> Born in Bandung @ 1995</i>
-          <br />
-          <i class="fa fa-graduation-cap">
-            Bachelor Degree of English Education</i
-          >
-          <br />
-          <i class="fa fa-heartbeat"> +AB</i>
-          <br />
-          <i class="fas fa-dumbbell"> 165 cm x 58Kg</i>
-        </ul>
-        <p class="w3-center">
-          if enough:
-          <br />
-          <button class="w3-center w3-button" onclick="myFunction()">
-            break
-          </button>
-        </p>
-        <hr class="w3-opacity content" />
+        <div>
+          <p>
+            <i class="fa fa-map-marker fa-fw"></i>
+            Cianjur - Bandung
+          </p>
+          <p>
+            <i class="fa fa-phone fa-fw"></i>
+            +(62)896-5751-1134
+          </p>
+          <p>
+            <i class="fa fa-envelope fa-fw">
+            </i>
+            Skalexsong@gmail.com
+          </p>
+        </div>
       </div>
     </div>
 
-    <div class="w3-padding content w3-text-white w3-center" id="contact">
-      <h2 class="w3-text-light-grey">Coding Performance</h2>
-      <hr />
-
-      <a href="https://www.hackerrank.com/SamX23">Hacker Rank</a>
-      <a href="https://github.com/samx23">Github</a>
-      <a href="https://stackoverflow.com/users/12217514/sami-kalammallah"
-        >Stack Over Flow</a
-      >
-      <a href="https://www.dicoding.com/users/409443">Dicoding</a>
-    </div>
-
-    <div class="w3-padding content w3-text-white w3-center">
-      <h2 class="w3-text-light-grey">Let's socialize</h2>
-      <hr />
-
-      <div class="w3-section">
+    <footer>
+      <div class="social">
         <p>
-          <i
-            class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"
-          ></i>
-          Cianjur - Bandung
-        </p>
-        <p>
-          <i
-            class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
-          ></i>
-          +(62)896-5751-1134
-        </p>
-        <p>
-          <i
-            class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
-          >
-          </i>
-          Skalexsong@gmail.com
+          <span>
+            <i class="fab fa-facebook"></i>
+            <a style="color: rgb(95, 95, 255);" href="https://web.facebook.com/SamiKalamallah">Facebook</a>
+            |
+            <i class="fab fa-instagram"></i>
+            <a style="color: orange;" href="https://www.instagram.com/samikalamallah/">Instagram</a>
+            |
+            <i class="fab fa-linkedin"></i>
+            <a style="color: skyblue;" href="https://www.linkedin.com/in/samikalamallah/">LinkedIn</a>
+            |
+            <i class="fab fa-whatsapp "></i>
+            <a style="color: green;" href="https://wa.me/+6289657511134">WhatsApp</a>
+          </span>
         </p>
       </div>
-    </div>
-
-    <footer class="w3-padding-32 content w3-text-white w3-large">
-      <p class="w3-center">
-        <span>
-          <i class="fab fa-facebook w3-hover-opacity-off"></i>
-          <a
-            style="color: rgb(95, 95, 255);"
-            href="https://web.facebook.com/SamiKalamallah"
-            >Facebook</a
-          >
-          |
-
-          <i class="fab fa-instagram w3-hover-opacity-off"></i>
-          <a
-            style="color: orange;"
-            href="https://www.instagram.com/samikalamallah/"
-            >Instagram</a
-          >
-          |
-
-          <i class="fab fa-linkedin w3-hover-opacity-off"></i>
-          <a
-            style="color: skyblue;"
-            href="https://www.linkedin.com/in/samikalamallah/"
-            >LinkedIn</a
-          >
-          |
-
-          <i class="fab fa-whatsapp w3-hover-green-off"></i>
-          <a style="color: green;" href="https://wa.me/+6289657511134"
-            >WhatsApp</a
-          >
-        </span>
-      </p>
-      <p class="w3-medium w3-center">
-        It is <a href="https://en.wikipedia.org/wiki/2020">2020</a> and here I
-        am, Sami Kalammallah
-      </p>
+      <div class="copyright">
+        <p>
+          Copyright &COPY; 2020 | Made with ❤️ by Sami Kalammallah
+        </p>
+      </div>
     </footer>
   </main>
 </body>
 
-<script src="assets\script\particles.js"></script>
 <script type="text/javascript">
   function myFunction() {
     var x = document.getElementById("divBut");
@@ -209,115 +192,9 @@
       x.style.display = "none";
     }
   }
-  // From particle JS Git (I forget the source)
-  particlesJS("particles-js", {
-    particles: {
-      number: {
-        value: 40,
-        density: {
-          enable: true,
-          value_area: 500,
-        },
-      },
-      color: {
-        value: "#fbff00",
-      },
-      shape: {
-        type: "circle",
-        stroke: {
-          width: 0,
-          color: "#000000",
-        },
-        polygon: {
-          nb_sides: 5,
-        },
-        image: {
-          src: "img/github.svg",
-          width: 100,
-          height: 100,
-        },
-      },
-      opacity: {
-        value: 0.5,
-        random: false,
-        anim: {
-          enable: false,
-          speed: 1,
-          opacity_min: 0.1,
-          sync: false,
-        },
-      },
-      size: {
-        value: 3,
-        random: true,
-        anim: {
-          enable: false,
-          speed: 40,
-          size_min: 0.1,
-          sync: false,
-        },
-      },
-      line_linked: {
-        enable: true,
-        distance: 150,
-        color: "#ffffff",
-        opacity: 0.4,
-        width: 1,
-      },
-      move: {
-        enable: true,
-        speed: 6,
-        direction: "none",
-        random: false,
-        straight: false,
-        out_mode: "out",
-        bounce: false,
-        attract: {
-          enable: false,
-          rotateX: 600,
-          rotateY: 1200,
-        },
-      },
-    },
-    interactivity: {
-      detect_on: "canvas",
-      events: {
-        onhover: {
-          enable: true,
-          mode: "grab",
-        },
-        onclick: {
-          enable: true,
-          mode: "push",
-        },
-        resize: true,
-      },
-      modes: {
-        grab: {
-          distance: 365.4347455356053,
-          line_linked: {
-            opacity: 0.5758331071131836,
-          },
-        },
-        bubble: {
-          distance: 400,
-          size: 40,
-          duration: 2,
-          opacity: 8,
-          speed: 3,
-        },
-        repulse: {
-          distance: 200,
-          duration: 0.4,
-        },
-        push: {
-          particles_nb: 4,
-        },
-        remove: {
-          particles_nb: 2,
-        },
-      },
-    },
-    retina_detect: true,
-  });
 </script>
+<script src="assets\script\particles.js"></script>
+<script src="assets\script\cust-particle.js"></script>
+<script src="https://kit.fontawesome.com/e7051368e2.js" crossorigin="anonymous"></script>
+
+</html>
