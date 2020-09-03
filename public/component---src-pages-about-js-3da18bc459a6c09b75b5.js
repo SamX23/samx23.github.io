@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{"3XHS":function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return u}));var a=n("q1tI"),l=n.n(a);function r(){return l.a.createElement("h1",null,"Bismillah")}function u(){return l.a.createElement("div",{style:{color:"teal"}},l.a.createElement(r,{hText:"About Sami Kalammallah"}),l.a.createElement("p",null,"Details"))}}}]);
-//# sourceMappingURL=component---src-pages-about-js-3da18bc459a6c09b75b5.js.map
