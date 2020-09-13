@@ -31,6 +31,26 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "google-1.png",
+    title: "Search Engine Clone",
+    info:
+      "I made a basic search engine using google custom search, React Context and custom hooks",
+    info2: "",
+    url: "https://search-engine-sam.firebaseapp.com/",
+    repo: "https://github.com/SamX23/search-engine", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "amazon-1.png",
+    title: "Amazon Clone",
+    info:
+      "Built an Amazon clone with working bucket, wishlist, login, and payment order(comming soon)",
+    info2: "",
+    url: "https://challenge-97a60.web.app/",
+    repo: "https://github.com/SamX23/amazon-clone", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "project-1.png",
     title: "Dicoding Front-End Web Development",
     info:
@@ -48,16 +68,6 @@ export const projectsData = [
     info2: "",
     url: "https://samx23.github.io/progate-team-work/",
     repo: "https://github.com/SamX23/progate-team-work", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: "project-3.png",
-    title: "Search Engine Clone",
-    info:
-      "I create a basic search engine using google custom search, React Context and custom hooks",
-    info2: "",
-    url: "https://search-engine-sam.firebaseapp.com/",
-    repo: "https://github.com/SamX23/search-engine", // if no repo, the button will not show up
   },
 ];
 
