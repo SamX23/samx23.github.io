@@ -51,7 +51,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "project-1.png",
+    img: "whatsapp.png",
+    title: "Whatsapp Clone",
+    info:
+      "Built a whatsapp clone with working group chat and login using google.",
+    info2: "",
+    url: "https://whatsapp-clone-sam23.web.app/",
+    repo: "https://github.com/SamX23/whatsapp-clone", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: "pokemon.png",
     title: "Dicoding Front-End Web Development",
     info:
       "Using pokemon public API, I create a pokedex(Pokemon Search) to shows a card containing pokemon details.",
