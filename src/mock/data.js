@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "whatsapp.png",
+    title: "Whatsapp Clone",
+    info:
+      "Built a whatsapp clone with working group chat and login using google.",
+    info2: "",
+    url: "https://whatsapp-clone-sam23.web.app/",
+    repo: "https://github.com/SamX23/whatsapp-clone", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "google-1.png",
     title: "Search Engine Clone",
     info:
@@ -51,23 +61,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "whatsapp.png",
-    title: "Whatsapp Clone",
-    info:
-      "Built a whatsapp clone with working group chat and login using google.",
-    info2: "",
-    url: "https://whatsapp-clone-sam23.web.app/",
-    repo: "https://github.com/SamX23/whatsapp-clone", // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: "pokemon.png",
     title: "Dicoding Front-End Web Development",
     info:
       "Using pokemon public API, I create a pokedex(Pokemon Search) to shows a card containing pokemon details.",
     info2: "",
-    url: "https://samx23.github.io/front-end-dasar-dicoding/",
-    repo: "https://github.com/samx23/front-end-dasar-dicoding", // if no repo, the button will not show up
+    url: "https://samx23.github.io/pokedex-dicoding/",
+    repo: "https://github.com/samx23/pokedex-dicoding/", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
