@@ -33,11 +33,10 @@ export const projectsData = [
     id: nanoid(),
     img: "whatsapp.png",
     title: "Whatsapp Clone",
-    info:
-      "Built a whatsapp clone with working group chat and login using google.",
+    info: "Built a group chat app using react and firebase.",
     info2: "",
-    url: "https://whatsapp-clone-sam23.web.app/",
-    repo: "https://github.com/SamX23/whatsapp-clone", // if no repo, the button will not show up
+    url: "https://chatgroup23.now.sh/",
+    repo: "https://github.com/SamX23/group-chat-app/", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
