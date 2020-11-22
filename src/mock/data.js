@@ -31,8 +31,8 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: "whatsapp.png",
-    title: "Whatsapp Clone",
+    img: "Chat-app-2.png",
+    title: "Group Chat App",
     info: "Built a group chat app using react and firebase.",
     info2: "",
     url: "https://chatgroup23.now.sh/",
@@ -70,6 +70,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: "movie-db.png",
+    title: "Simple Movie DB Web App",
+    info: "A simple web app to show the trending and other popular movies.",
+    info2: "",
+    url: "https://simple-moviedb.web.app/",
+    repo: "https://github.com/SamX23/moviedb-web-app", // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: "project-2.png",
     title: "Progate Team Projects",
     info:
@@ -103,7 +112,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: "linkedin",
-      url: "https://www.linkedin.com/in/samikalamallah/",
+      url: "https://www.linkedin.com/in/samikalammallah/",
     },
     {
       id: nanoid(),
