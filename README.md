@@ -1,35 +1,19 @@
-# Gatsby Simplefolio ⚡️
+## Sami's Ultimate Blog
 
-## A clean, beautiful and responsive portfolio template for Developers
+Hi, I challenge myself to create a website using most updated techstack and rigid code using Next js, typescript and material-ui(at the moment). I will try to optimize the website as far as I learn and implement many things that can deliver this website to the best I ever created.
 
-## Features
+### To do
 
-⚡️ Modern UI Design + Reveal Animations\
-⚡️ One Page Layout built with React\
-⚡️ Styled with Bootstrap v4.3 + Custom SCSS\
-⚡️ Fully Responsive\
-⚡️ Configurable color scheme\
-⚡️ Image optimization with Gatsby\
-⚡️ Easy site customization\
-⚡️ Well organized documentation
+- React Context
+- Theming switch for dark and light
+- PWA
+- Shows up on google !
+- Github API
+- Animation
+- Profile
+- GraphQL ?
+- Add license
 
-## Others versions 👥
+### License
 
-[Simplefolio](https://github.com/cobidev/simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
-## Technologies used 🛠️
-
-- [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
-- [GraphQL](https://graphql.org/) - Query language for APIs
-- [React](https://es.reactjs.org/) - Front-End JavaScript library
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
-- [Sass](https://sass-lang.com/documentation) - CSS extension language
-
-## Original Author
-
-- Thanks to **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+MIT
