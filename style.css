@@ -1,0 +1,181 @@
+/* Free Palestine */
+:root {
+  --primary-color: hsl(353, 85%, 44%);
+  --secondary-color: hsl(150, 100%, 24%);
+  --tertiary-color: hsl(0, 0%, 100%);
+  --fourth-color: hsl(0, 0%, 0%);
+}
+
+* {
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e9e9e9;
+}
+
+header {
+  height: 5vh;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+  a {
+    font-weight: bold;
+    padding: 1rem;
+  }
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  background: var(--tertiary-color);
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 85vh;
+  height: 100%;
+  overflow-x: auto;
+}
+
+footer {
+  height: 5vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 1.5rem 0;
+}
+
+a {
+  font-style: italic;
+  text-decoration: solid;
+  font-weight: bolder;
+  color: var(--primary-color);
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.contact {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+
+  p {
+    margin-top: 0.5rem;
+  }
+
+  .contact-line {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer {
+  color: var(--primary-color);
+
+  .social {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+}
+
+section {
+  margin-bottom: 1.5rem;
+
+  h2 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+
+  p,
+  ul li {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+
+  p {
+    text-align: justify;
+  }
+}
+
+.education,
+.experience {
+  font-size: 1rem;
+
+  span,
+  span {
+    display: block;
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: var(--tertiary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+}
+
+/* on mobile under 500px */
+@media (max-width: 500px) {
+  body {
+    max-width: 900px;
+    margin: 0 auto !important;
+    padding: 1rem 0 !important;
+  }
+
+  footer {
+    p {
+      font-size: smaller;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "sami-cv",
+  "version": "1.0.0",
+  "description": "A plain html of Sami's curriculum vitae.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samx23/cv.git"
+  },
+  "keywords": [
+    "cv",
+    "html",
+    "css"
+  ],
+  "author": "Sami Kalammallah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samx23/cv/issues"
+  },
+  "homepage": "https://github.com/samx23/cv#readme"
+}
